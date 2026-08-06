@@ -1,4 +1,20 @@
 /* margin */
+.m-auto { margin: auto;}
+.mt-auto { margin-top: auto;}
+.mb-auto { margin-bottom: auto;}
+.mr-auto { margin-right: auto;}
+.ml-auto { margin-left: auto;}
+.mx-auto { margin-right: auto; margin-left: auto;}
+.my-auto { margin-top: auto; margin-bottom: auto;}
+
+.m-0 { margin: 0;}
+.mt-0 { margin-top: 0;}
+.mb-0 { margin-bottom: 0;}
+.mr-0 { margin-right: 0;}
+.ml-0 { margin-left: 0;}
+.mx-0 { margin-right: 0; margin-left: 0;}
+.my-0 { margin-top: 0; margin-bottom: 0;}
+
 .m-xxs { margin: var(--pg-spacing-xxs);}
 .m-xs { margin: var(--pg-spacing-xs);}
 .m-sm { margin: var(--pg-spacing-sm);}
@@ -64,6 +80,14 @@
 
 
 /* padding */
+.p-0 { padding: 0;}
+.pt-0 { padding-top: 0;}
+.pb-0 { padding-bottom: 0;}
+.pr-0 { padding-right: 0;}
+.pl-0 { padding-left: 0;}
+.px-0 { padding-right: 0; padding-left: 0;}
+.py-0 { padding-top: 0; padding-bottom: 0;}
+
 .p-xxs { padding: var(--pg-spacing-xxs);}
 .p-xs { padding: var(--pg-spacing-xs);}
 .p-sm { padding: var(--pg-spacing-sm);}
@@ -127,4 +151,32 @@
 .py-2xl { padding-top: var(--pg-spacing-2xl); padding-bottom: var(--pg-spacing-2xl);}
 .py-3xl { padding-top: var(--pg-spacing-3xl); padding-bottom: var(--pg-spacing-3xl);}
 
-/**/
+/* gap */
+.gap-0 { gap: 0;}
+
+.gap-xxs { gap: var(--pg-spacing-xxs);}
+.gap-xs { gap: var(--pg-spacing-xs);}
+.gap-sm { gap: var(--pg-spacing-sm);}
+.gap-md { gap: var(--pg-spacing-md);}
+.gap-lg { gap: var(--pg-spacing-lg);}
+.gap-xl { gap: var(--pg-spacing-xl);}
+.gap-2xl { gap: var(--pg-spacing-2xl);}
+.gap-3xl { gap: var(--pg-spacing-3xl);}
+
+.gap-x-xxs { column-gap: var(--pg-spacing-xxs);}
+.gap-x-xs { column-gap: var(--pg-spacing-xs);}
+.gap-x-sm { column-gap: var(--pg-spacing-sm);}
+.gap-x-md { column-gap: var(--pg-spacing-md);}
+.gap-x-lg { column-gap: var(--pg-spacing-lg);}
+.gap-x-xl { column-gap: var(--pg-spacing-xl);}
+.gap-x-2xl { column-gap: var(--pg-spacing-2xl);}
+.gap-x-3xl { column-gap: var(--pg-spacing-3xl);}
+
+.gap-y-xxs { row-gap: var(--pg-spacing-xxs);}
+.gap-y-xs { row-gap: var(--pg-spacing-xs);}
+.gap-y-sm { row-gap: var(--pg-spacing-sm);}
+.gap-y-md { row-gap: var(--pg-spacing-md);}
+.gap-y-lg { row-gap: var(--pg-spacing-lg);}
+.gap-y-xl { row-gap: var(--pg-spacing-xl);}
+.gap-y-2xl { row-gap: var(--pg-spacing-2xl);}
+.gap-y-3xl { row-gap: var(--pg-spacing-3xl);}

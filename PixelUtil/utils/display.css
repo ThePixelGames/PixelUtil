@@ -1,5 +1,14 @@
-.block { display: block; }
-.inline { display: inline; }
-.flex { display: flex; }
-.grid { display: grid; }
-.hidden { display: none; } 
+.block { display: block;}
+.inline { display: inline;}
+.inline-block {display: inline-block;}
+
+.flex { display: flex;}
+.inline-flex {display: inline-flex;}
+
+.grid { display: grid;}
+.inline-grid { display: inline-grid;}
+
+.contents { display: contents;}
+
+.flow-root { display: flow-root;}
+.hidden { display: none;} 
