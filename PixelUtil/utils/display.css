@@ -1,0 +1,5 @@
+.block { display: block; }
+.inline { display: inline; }
+.flex { display: flex; }
+.grid { display: grid; }
+.hidden { display: none; } 
