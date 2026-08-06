@@ -1,0 +1,23 @@
+:root {
+    --clr-primary: var();
+
+    --clr-secondary: var();
+
+    --clr-accent: var();
+
+    --clr-background: var();
+
+    --clr-text: var();
+
+    --clr-border: var();
+
+    --clr-success: var();
+
+    --clr-warning: var();
+
+    --clr-error: var();
+
+    --clr-info: var();
+
+    --clr-muted: var();
+}
