@@ -6,3 +6,4 @@
 - Figure out how the color system works for css. ( On one of the css frameworks I think svete, has a color system. research that. )
 - add pixel specific units. not rem. 
 - Top right bottom left format
+- each token variable shoulod have pg infront of it.
