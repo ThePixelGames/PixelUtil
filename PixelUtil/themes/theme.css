@@ -1,23 +1,61 @@
 :root {
+    /* Colors */
     --clr-primary: var();
-
     --clr-secondary: var();
-
     --clr-accent: var();
-
     --clr-background: var();
-
     --clr-text: var();
-
     --clr-border: var();
-
     --clr-success: var();
-
     --clr-warning: var();
-
     --clr-error: var();
-
     --clr-info: var();
-
     --clr-muted: var();
+
+    /* Typography */
+    --ff-primary: var();
+    --ff-secondary: var();
+
+    --fs-base: var();
+    --fs-lg: var();
+    --fs-sm: var();
+    --fs-xl: var();
+    --fs-2xl: var();
+
+    --fw-thin: var();
+    --fw-normal: var();
+    --fw-bold: var();
+
+    --line-height-base: var();
+    --line-height-lg: var();
+
+    --letter-spacing-base: var();
+
+    /* border-radius */
+    --radius-none: var();
+    --radius-sm: var();
+    --radius-base: var();
+    --radius-lg: var();
+
+    /* border */
+    --border-width-base: var();
+
+    --border-style-base: var();
+
+    /* spacing  ( OPTIONAL ) */
+    --spacing-default: var();
+    --spacing-sm: var();
+
+    /* shadows */
+    --shadow-default: var();
+
+    /* transitions */
+    --transition-default: var();
+
+    /*
+
+
+
+
+
 }
