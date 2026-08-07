@@ -1,0 +1,80 @@
+:root {
+    /* colors */
+    /* brand */
+    --clr-primary: var();
+    --clr-secondary: var();
+    --clr-tertiary: var();
+    --clr-accent: var();
+
+    /* status */
+    --clr-success: var();
+    --clr-warning: var();
+    --clr-error: var();
+    --clr-info: var();
+
+    /* backgrounds */
+    --clr-bg: var();
+    --clr-surface: var();
+    -clr-surface-hover: var();
+    --clr-overlay: var();
+
+    /* content */
+    --clr-header: var();
+    --clr-text: var();
+    --clr-description: var();
+    --clr-muted: var();
+
+    --clr-border: var();
+
+    /* Typography */
+    --ff-primary: var();
+    --ff-secondary: var();
+
+    --fs-base: var();
+    --fs-lg: var();
+    --fs-sm: var();
+    --fs-xl: var();
+    --fs-2xl: var();
+
+    --fw-thin: var();
+    --fw-normal: var();
+    --fw-medium: var();
+    --fw-bold: var();
+
+    --line-height-base: var();
+    --line-height-lg: var();
+
+    --letter-spacing-base: var();
+
+    /* border-radius */
+    --radius-none: var();
+    --radius-sm: var();
+    --radius-base: var();
+    --radius-lg: var();
+    --radius-full: var();
+
+    /* border */
+    --border-width-base: var();
+    --border-width-thick: var();
+
+    --border-style-base: var();
+
+    /* spacing  ( OPTIONAL ) */
+    --spacing-default: var();
+    --spacing-sm: var();
+
+    /* shadows */
+    --shadow-sm: var();
+    --shadow-base: var();
+    --shadow-lg: var();
+
+    /* transitions */
+    --transition-fast: var();
+    --transition-base: var();
+    --transition-slow: var();
+
+    /* layers */
+    --z-dropdown: var();
+    --z-modal: var();
+    --z-tooltip: var();
+}

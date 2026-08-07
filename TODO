@@ -8,8 +8,9 @@
 - negative offsets
 - currenlty only one filter can be applied at a time.
 - each of the utils should have a theme component involved.
-
+- create a base.css or multiple
+- add pixel simplicity font.
 
 # Standards
 
-all css varaiables that start with pg are global variables. in the tokens
+all css varaiables that start with pg are global variables used in utils. in the tokens
