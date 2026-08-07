@@ -1,0 +1,17 @@
+/* colors */
+.text-clr-primary { color: var(--clr-primary);}
+.text-clr-secondary { color: var(--clr-secondary);}
+.text-clr-tertiary { color: var(--clr-tertiary);}
+.text-clr-accent { color: var(--clr-accent);}
+
+/* status */
+.text-clr-success { color: var(--clr-success);}
+.text-clr-warning { color: var(--clr-warning);}
+.text-clr-error { color: var(--clr-error);}
+.text-clr-info { color: var(--clr-info);}
+
+/* content */
+.text-clr-header { color: var(--clr-header);}
+.text-clr-text { color: var(--clr-text);}
+.text-clr-description { color: var(--clr-description);}
+.text-clr-muted { color: var(--clr-muted);}

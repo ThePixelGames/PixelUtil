@@ -1,0 +1,17 @@
+/* colors */
+.bg-clr-primary { background-color: var(--clr-primary);}
+.bg-clr-secondary { background-color: var(--clr-secondary);}
+.bg-clr-tertiary { background-color: var(--clr-tertiary);}
+.bg-clr-accent { background-color: var(--clr-accent);}
+
+/* status */
+.bg-clr-success { background-color: var(--clr-success);}
+.bg-clr-warning { background-color: var(--clr-warning);}
+.bg-clr-error { background-color: var(--clr-error);}
+.bg-clr-info { background-color: var(--clr-info);}
+
+/* backgrounds */
+.bg-clr-bg { background-color: var(--clr-bg);}
+.bg-clr-surface { background-color: var(--clr-surface);}
+.bg-clr-surface-hover { background-color: var(--clr-surface-hover);}
+.bg-clr-overlay { background-color: var(--clr-overlay);}

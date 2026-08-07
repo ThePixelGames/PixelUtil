@@ -1,0 +1,35 @@
+/* colors */
+.border-clr-primary { border-color: var(--clr-primary);}
+.border-clr-secondary { border-color: var(--clr-secondary);}
+.border-clr-tertiary { border-color: var(--clr-tertiary);}
+.border-clr-accent { border-color: var(--clr-accent);}
+
+/* status */
+.border-clr-success { border-color: var(--clr-success);}
+.border-clr-warning { border-color: var(--clr-warning);}
+.border-clr-error { border-color: var(--clr-error);}
+.border-clr-info { border-color: var(--clr-info);}
+
+/* content */
+.border-clr-border { border-color: var(--clr-border);}
+
+/* sides */
+.border-t-clr-primary { border-top-color: var(--clr-primary);}
+.border-r-clr-primary { border-right-color: var(--clr-primary);}
+.border-b-clr-primary { border-bottom-color: var(--clr-primary);}
+.border-l-clr-primary { border-left-color: var(--clr-primary);}
+
+.border-t-clr-secondary { border-top-color: var(--clr-secondary);}
+.border-r-clr-secondary { border-right-color: var(--clr-secondary);}
+.border-b-clr-secondary { border-bottom-color: var(--clr-secondary);}
+.border-l-clr-secondary { border-left-color: var(--clr-secondary);}
+
+.border-t-clr-tertiary { border-top-color: var(--clr-tertiary);}
+.border-r-clr-tertiary { border-right-color: var(--clr-tertiary);}
+.border-b-clr-tertiary { border-bottom-color: var(--clr-tertiary);}
+.border-l-clr-tertiary { border-left-color: var(--clr-tertiary);}
+
+.border-t-clr-accent { border-top-color: var(--clr-accent);}
+.border-r-clr-accent { border-right-color: var(--clr-accent);}
+.border-b-clr-accent { border-bottom-color: var(--clr-accent);}
+.border-l-clr-accent { border-left-color: var(--clr-accent);}

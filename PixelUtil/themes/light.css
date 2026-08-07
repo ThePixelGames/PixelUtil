@@ -1,16 +1,30 @@
 :root {
-    /* Colors */
+    /* colors */
+    /* brand */
     --clr-primary: var();
     --clr-secondary: var();
+    --clr-tertiary: var();
     --clr-accent: var();
-    --clr-background: var();
-    --clr-text: var();
-    --clr-border: var();
+
+    /* status */
     --clr-success: var();
     --clr-warning: var();
     --clr-error: var();
     --clr-info: var();
+
+    /* backgrounds */
+    --clr-bg: var();
+    --clr-surface: var();
+    -clr-surface-hover: var();
+    --clr-overlay: var();
+
+    /* content */
+    --clr-header: var();
+    --clr-text: var();
+    --clr-description: var();
     --clr-muted: var();
+
+    --clr-border: var();
 
     /* Typography */
     --ff-primary: var();
@@ -24,6 +38,7 @@
 
     --fw-thin: var();
     --fw-normal: var();
+    --fw-medium: var();
     --fw-bold: var();
 
     --line-height-base: var();
@@ -36,9 +51,11 @@
     --radius-sm: var();
     --radius-base: var();
     --radius-lg: var();
+    --radius-full: var();
 
     /* border */
     --border-width-base: var();
+    --border-width-thick: var();
 
     --border-style-base: var();
 
@@ -47,8 +64,18 @@
     --spacing-sm: var();
 
     /* shadows */
-    --shadow-default: var();
+    --shadow-sm: var();
+    --shadow-base: var();
+    --shadow-lg: var();
 
     /* transitions */
-    --transition-default: var();
+    --transition-fast: var();
+    --transition-base: var();
+    --transition-slow: var();
+
+    /* layers */
+    --z-dropdown: var();
+    --z-modal: var();
+    --z-tooltip: var();
+
 }
