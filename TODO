@@ -7,3 +7,8 @@
 - add pixel specific units. not rem. 
 - Top right bottom left format
 - each token variable shoulod have pg infront of it.
+
+
+# Standards
+
+all css varaiables that start with pg are global variables. in the tokens

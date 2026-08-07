@@ -1,37 +1,37 @@
 :root {
-    --ff-sans: 'Inter', sans-serif;
-    --ff-serif: 'Merriweather', serif;
-    --ff-mono: 'Fira Code', monospace;
+    --pg-ff-sans: 'Inter', sans-serif;
+    --pg-ff-serif: 'Merriweather', serif;
+    --pg-ff-mono: 'Fira Code', monospace;
 
-    --fs-xs: 0.75rem;
-    --fs-sm: 0.875rem;
-    --fs-md: 1rem;
-    --fs-lg: 1.125rem;
-    --fs-xl: 1.25rem;
-    --fs-2xl: 1.5rem;
+    --pg-fs-xs: 0.75rem;
+    --pg-fs-sm: 0.875rem;
+    --pg-fs-md: 1rem;
+    --pg-fs-lg: 1.125rem;
+    --pg-fs-xl: 1.25rem;
+    --pg-fs-2xl: 1.5rem;
 
-    --fw-100: 100;
-    --fw-200: 200;
-    --fw-300: 300;
-    --fw-400: 400;
-    --fw-500: 500;
-    --fw-600: 600;
-    --fw-700: 700;
-    --fw-800: 800;
-    --fw-900: 900;
+    --pg-fw-100: 100;
+    --pg-fw-200: 200;
+    --pg-fw-300: 300;
+    --pg-fw-400: 400;
+    --pg-fw-500: 500;
+    --pg-fw-600: 600;
+    --pg-fw-700: 700;
+    --pg-fw-800: 800;
+    --pg-fw-900: 900;
 
-    --line-height-none: 1rem;
-    --line-height-tight: 1.25rem;
-    --line-height-normal: 1.5rem;
-    --line-height-loose: 1.75rem;
-    --line-height-relaxed: 2rem;
-    --line-height-mega: 2.5rem;
+    --pg-line-height-none: 1rem;
+    --pg-line-height-tight: 1.25rem;
+    --pg-line-height-normal: 1.5rem;
+    --pg-line-height-loose: 1.75rem;
+    --pg-line-height-relaxed: 2rem;
+    --pg-line-height-mega: 2.5rem;
 
-    --letter-spacing-tighter: -0.01em;
-    --letter-spacing-tight: -0.005em;
-    --letter-spacing-normal: 0em;
-    --letter-spacing-wide: 0.005em;
-    --letter-spacing-wide2: 0.01em;
-    --letter-spacing-wide3: 0.015em;
+    --pg-letter-spacing-tighter: -0.01em;
+    --pg-letter-spacing-tight: -0.005em;
+    --pg-letter-spacing-normal: 0em;
+    --pg-letter-spacing-wide: 0.005em;
+    --pg-letter-spacing-wide2: 0.01em;
+    --pg-letter-spacing-wide3: 0.015em;
 
 }

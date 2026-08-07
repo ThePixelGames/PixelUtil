@@ -1,15 +1,15 @@
 :root {
-    --duration-very-fast: 0.1s;
-    --duration-fast: 0.2s;
-    --duration-medium: 0.3s;
-    --duration-slow: 0.5s;
-    --duration-very-slow: 1s;
+    --pg-duration-very-fast: 0.1s;
+    --pg-duration-fast: 0.2s;
+    --pg-duration-medium: 0.3s;
+    --pg-duration-slow: 0.5s;
+    --pg-duration-very-slow: 1s;
 
-    --ease-linear: linear;
-    --ease-in: ease-in;
-    --ease-out: ease-out;
-    --ease-in-out: ease-in-out;
-    --ease-custom: cubic-bezier(0.4, 0, 0.2, 1);
+    --pg-ease-linear: linear;
+    --pg-ease-in: ease-in;
+    --pg-ease-out: ease-out;
+    --pg-ease-in-out: ease-in-out;
+    --pg-ease-custom: cubic-bezier(0.4, 0, 0.2, 1);
 
-    --animation-none: none;
+    --pg-animation-none: none;
 }
