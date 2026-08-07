@@ -46,7 +46,6 @@
 .min-w-min { min-width: min-content;}
 .min-w-max { min-width: max-content;}
 .min-w-fit { min-width: fit-content;}
-.min-w-screen { min-width: 100vh;}
 .min-w-dvh { min-width: 100dvh;}
 
 

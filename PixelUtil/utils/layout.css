@@ -1,0 +1,47 @@
+/* display */
+.block { display: block;}
+.inline { display: inline;}
+.inline-block {display: inline-block;}
+
+.list-item { display: list-item;}
+
+.table { display: table;}
+.inline-table { display: inline-table;}
+.table-row { display: table-row;}
+.table-cell { display: table-cell;}
+
+.flex { display: flex;}
+.inline-flex {display: inline-flex;}
+
+.grid { display: grid;}
+.inline-grid { display: inline-grid;}
+
+.contents { display: contents;}
+
+.flow-root { display: flow-root;}
+.hidden { display: none;} 
+
+/* visibility */
+.visible { visibility: visible;}
+.invisible { visibility: hidden;}
+
+
+/* box sizing */
+.box-border { box-sizing: border-box;}
+.box-content { box-sizing: content-box;}
+
+
+/* object fit */
+.object-contain { object-fit: contain;}
+.object-cover { object-fit: cover;}
+.object-fill { object-fit: fill;}
+.object-none { object-fit: none;}
+.object-scale-down { object-fit: scale-down;}
+
+
+/* object position */
+.object-center { object-position: center;}
+.object-top { object-position: top;}
+.object-right { object-position: right;}
+.object-bottom { object-position: bottom;}
+.object-left { object-position: left;}

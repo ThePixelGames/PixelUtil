@@ -5,6 +5,9 @@
 # General
 - Top right bottom left format
 - color bg
+- negative offsets
+- currenlty only one filter can be applied at a time.
+- each of the utils should have a theme component involved.
 
 
 # Standards

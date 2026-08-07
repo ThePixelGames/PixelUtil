@@ -1,0 +1,31 @@
+/* cursor */
+.i-cursor-auto { cursor: auto;}
+.i-cursor-default { cursor: default;}
+.i-cursor-pointer { cursor: pointer;}
+.i-cursor-wait { cursor: wait;}
+.i-cursor-text { cursor: text;}
+.i-cursor-move { cursor: move;}
+.i-cursor-not-allowed { cursor: not-allowed;}
+
+.i-select-none { user-select: none;}
+.i-select-text { user-select: text;}
+.i-select-all { user-select: all;}
+.i-select-auto { user-select: auto;}
+
+.i-pointer-events-none { pointer-events: none;}
+.i-pointer-events-auto { pointer-events: auto;}
+
+.i-resize-none { resize: none;}
+.i-resize { resize: both;}
+.i-resize-x { resize: horizontal;}
+.i-resize-y { resize: vertical;}
+
+.i-drag-none { -webkit-user-drag: none;}
+
+.i-touch-auto { touch-action: auto;}
+.i-touch-none { touch-action: none;}
+.i-touch-pan-x { touch-action: pan-x;}
+.i-touch-pan-y { touch-action: pan-y;}
+
+.i-scroll-auto { scroll-behavior: auto;}
+.i-scroll-smooth { scroll-behavior: smooth;}

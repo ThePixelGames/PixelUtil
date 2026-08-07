@@ -1,3 +1,27 @@
+/* size */
+.bg-cover { background-size: cover;}
+.bg-contain { background-size: contain;}
+
+/* image */
+.bg-none { background-image: none;}
+
+/* position */
+.bg-center { background-position: center;}
+.bg-top { background-position: top;}
+.bg-right { background-position: right;}
+.bg-bottom { background-position: bottom;}
+.bg-left { background-position: left;}
+
+/* repeat */
+.bg-repeat { background-repeat: repeat;}
+.bg-no-repeat { background-repeat: no-repeat;}
+.bg-repeat-x { background-repeat: repeat-x;}
+.bg-repeat-y { background-repeat: repeat-y;}
+
+/* attachment */
+.bg-fixed { background-attachment: fixed;}
+.bg-scroll { background-attachment: scroll;}
+
 /* colors */
 .bg-clr-primary { background-color: var(--clr-primary);}
 .bg-clr-secondary { background-color: var(--clr-secondary);}

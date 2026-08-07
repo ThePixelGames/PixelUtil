@@ -6,4 +6,39 @@
     --pg-z-fixed: 300;
     --pg-z-modal: 1000;
     --pg-z-tooltip: 1100;
+
+    /* numbered */
+    --pg-z-negative-100: -100;
+    --pg-z-negative-90: -90;
+    --pg-z-negative-80: -80;
+    --pg-z-negative-70: -70;
+    --pg-z-negative-60: -60;
+    --pg-z-negative-50: -50;
+    --pg-z-negative-40: -40;
+    --pg-z-negative-30: -30;
+    --pg-z-negative-20: -20;
+    --pg-z-negative-10: -10;
+
+    --pg-z-0: 0;
+
+    --pg-z-10: 10;
+    --pg-z-20: 20;
+    --pg-z-30: 30;
+    --pg-z-40: 40;
+    --pg-z-50: 50;
+    --pg-z-60: 60;
+    --pg-z-70: 70;
+    --pg-z-80: 80;
+    --pg-z-90: 90;
+    --pg-z-100: 100;
+
+    --pg-z-200: 200;
+    --pg-z-300: 300;
+    --pg-z-400: 400;
+    --pg-z-500: 500;
+    --pg-z-600: 600;
+    --pg-z-700: 700;
+    --pg-z-800: 800;
+    --pg-z-900: 900;
+    --pg-z-1000: 1000;
 }

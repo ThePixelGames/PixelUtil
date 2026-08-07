@@ -152,6 +152,10 @@
 .py-3xl { padding-top: var(--pg-smooth-spacing-3xl); padding-bottom: var(--pg-smooth-spacing-3xl);}
 
 /* gap */
+
+.gap-x-0 { column-gap: 0;}
+.gap-y-0 { row-gap: 0;}
+
 .gap-0 { gap: 0;}
 
 .gap-xxs { gap: var(--pg-smooth-spacing-xxs);}
