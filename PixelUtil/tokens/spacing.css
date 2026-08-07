@@ -7,4 +7,61 @@
     --pg-spacing-xl: 2.5rem;
     --pg-spacing-2xl: 4rem;
     --pg-spacing-3xl: 6.5rem;
+
+    --pg-smooth-sizing-1: 4px;
+    --pg-smooth-sizing-2: 6px;
+    --pg-smooth-sizing-3: 10px;
+    --pg-smooth-sizing-4: 17px;
+    --pg-smooth-sizing-5: 27px;
+    --pg-smooth-sizing-6: 44px;
+    --pg-smooth-sizing-7: 72px;
+    --pg-smooth-sizing-8: 116px;
+    --pg-smooth-sizing-9: 188px;
+    --pg-smooth-sizing-10: 304px;
+    --pg-smooth-sizing-11: 492px;
+    --pg-smooth-sizing-12: 796px;
+    
+    --pg-linear-1: 2px;
+    --pg-linear-2: 4px;
+    --pg-linear-3: 6px;
+    --pg-linear-4: 8px;
+    --pg-linear-5: 10px;
+    --pg-linear-6: 12px;
+    --pg-linear-7: 14px;
+    --pg-linear-8: 16px;
+    --pg-linear-9: 18px;
+    --pg-linear-10: 20px;
+    --pg-linear-11: 24px;
+    --pg-linear-12: 32px;
+    --pg-linear-13: 40px;
+    --pg-linear-14: 48px;
+    --pg-linear-15: 64px;
+    --pg-linear-16: 72px;
+    --pg-linear-17: 80px;
+    --pg-linear-18: 88px;
+    --pg-linear-19: 96px;
+    --pg-linear-20: 104px;
+    --pg-linear-21: 112px;
+    --pg-linear-22: 120px;
+    --pg-linear-23: 128px;
+    --pg-linear-24: 136px;
+    --pg-linear-25: 144px;
+    --pg-linear-26: 152px;
+    --pg-linear-27: 160px;
+    --pg-linear-28: 168px;
+    --pg-linear-29: 176px;
+    --pg-linear-30: 184px;
+    --pg-linear-31: 192px;
+    --pg-linear-32: 200px;
+    --pg-linear-33: 208px;
+    --pg-linear-34: 216px;
+    --pg-linear-35: 224px;
+    --pg-linear-36: 232px;
+    --pg-linear-37: 240px;
+    --pg-linear-38: 248px;
+    --pg-linear-39: 256px;
+    --pg-linear-40: 264px;
+
+
+
 }
