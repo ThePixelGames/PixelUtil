@@ -1,9 +1,12 @@
 :root {
+    /* smooth */
     --pg-radius-none: 0;
     --pg-radius-xs: 2px;
-    --pg-radius-sm: 4px;
-    --pg-radius-md: 8px;
-    --pg-radius-lg: 12px;
-    --pg-radius-xl: 16px;
+    --pg-radius-sm: 3px;
+    --pg-radius-md: 5px;
+    --pg-radius-lg: 8px;
+    --pg-radius-xl: 13px;
+    --pg-radius-2xl: 21px;
+    --pg-radius-3xl: 34px;
     --pg-radius-full: 9999px;
 }
