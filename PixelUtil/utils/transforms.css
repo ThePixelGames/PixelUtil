@@ -1,0 +1,169 @@
+/* rotate */
+.rotate-0 { transform: rotate(0deg);}
+.rotate-1 { transform: rotate(1deg);}
+.rotate-2 { transform: rotate(2deg);}
+.rotate-3 { transform: rotate(3deg);}
+.rotate-6 { transform: rotate(6deg);}
+.rotate-12 { transform: rotate(12deg);}
+.rotate-45 { transform: rotate(45deg);}
+.rotate-90 { transform: rotate(90deg);}
+.rotate-180 { transform: rotate(180deg);}
+.rotate-360 { transform: rotate(360deg);}
+
+.-rotate-1 { transform: rotate(-1deg);}
+.-rotate-2 { transform: rotate(-2deg);}
+.-rotate-3 { transform: rotate(-3deg);}
+.-rotate-6 { transform: rotate(-6deg);}
+.-rotate-12 { transform: rotate(-12deg);}
+.-rotate-45 { transform: rotate(-45deg);}
+.-rotate-90 { transform: rotate(-90deg);}
+.-rotate-180 { transform: rotate(-180deg);}
+
+/* scale */
+.scale-0 { transform: scale(0);}
+.scale-50 { transform: scale(.5);}
+.scale-75 { transform: scale(.75);}
+.scale-90 { transform: scale(.9);}
+.scale-95 { transform: scale(.95);}
+.scale-100 { transform: scale(1);}
+.scale-105 { transform: scale(1.05);}
+.scale-110 { transform: scale(1.1);}
+.scale-125 { transform: scale(1.25);}
+.scale-150 { transform: scale(1.5);}
+
+.scale-x-0 { transform: scaleX(0);}
+.scale-x-50 { transform: scaleX(.5);}
+.scale-x-75 { transform: scaleX(.75);}
+.scale-x-90 { transform: scaleX(.9);}
+.scale-x-95 { transform: scaleX(.95);}
+.scale-x-100 { transform: scaleX(1);}
+.scale-x-105 { transform: scaleX(1.05);}
+.scale-x-110 { transform: scaleX(1.1);}
+.scale-x-125 { transform: scaleX(1.25);}
+.scale-x-150 { transform: scaleX(1.5);}
+
+.scale-y-0 { transform: scaleY(0);}
+.scale-y-50 { transform: scaleY(.5);}
+.scale-y-75 { transform: scaleY(.75);}
+.scale-y-90 { transform: scaleY(.9);}
+.scale-y-95 { transform: scaleY(.95);}
+.scale-y-100 { transform: scaleY(1);}
+.scale-y-105 { transform: scaleY(1.05);}
+.scale-y-110 { transform: scaleY(1.1);}
+.scale-y-125 { transform: scaleY(1.25);}
+.scale-y-150 { transform: scaleY(1.5);}
+
+/* translate */
+.translate-x-0 { transform: translateX(0);}
+.translate-x-xxs { transform: translateX(var(--pg-spacing-xxs));}
+.translate-x-xs { transform: translateX(var(--pg-spacing-xs));}
+.translate-x-sm { transform: translateX(var(--pg-spacing-sm));}
+.translate-x-md { transform: translateX(var(--pg-spacing-md));}
+.translate-x-lg { transform: translateX(var(--pg-spacing-lg));}
+.translate-x-xl { transform: translateX(var(--pg-spacing-xl));}
+.translate-x-2xl { transform: translateX(var(--pg-spacing-2xl));}
+.translate-x-3xl { transform: translateX(var(--pg-spacing-3xl));}
+
+.-translate-x-xxs { transform: translateX(calc(var(--pg-spacing-xxs) * -1));}
+.-translate-x-xs { transform: translateX(calc(var(--pg-spacing-xs) * -1));}
+.-translate-x-sm { transform: translateX(calc(var(--pg-spacing-sm) * -1));}
+.-translate-x-md { transform: translateX(calc(var(--pg-spacing-md) * -1));}
+.-translate-x-lg { transform: translateX(calc(var(--pg-spacing-lg) * -1));}
+.-translate-x-xl { transform: translateX(calc(var(--pg-spacing-xl) * -1));}
+.-translate-x-2xl { transform: translateX(calc(var(--pg-spacing-2xl) * -1));}
+.-translate-x-3xl { transform: translateX(calc(var(--pg-spacing-3xl) * -1));}
+
+.translate-y-0 { transform: translateY(0);}
+.translate-y-xxs { transform: translateY(var(--pg-spacing-xxs));}
+.translate-y-xs { transform: translateY(var(--pg-spacing-xs));}
+.translate-y-sm { transform: translateY(var(--pg-spacing-sm));}
+.translate-y-md { transform: translateY(var(--pg-spacing-md));}
+.translate-y-lg { transform: translateY(var(--pg-spacing-lg));}
+.translate-y-xl { transform: translateY(var(--pg-spacing-xl));}
+.translate-y-2xl { transform: translateY(var(--pg-spacing-2xl));}
+.translate-y-3xl { transform: translateY(var(--pg-spacing-3xl));}
+
+.-translate-y-xxs { transform: translateY(calc(var(--pg-spacing-xxs) * -1));}
+.-translate-y-xs { transform: translateY(calc(var(--pg-spacing-xs) * -1));}
+.-translate-y-sm { transform: translateY(calc(var(--pg-spacing-sm) * -1));}
+.-translate-y-md { transform: translateY(calc(var(--pg-spacing-md) * -1));}
+.-translate-y-lg { transform: translateY(calc(var(--pg-spacing-lg) * -1));}
+.-translate-y-xl { transform: translateY(calc(var(--pg-spacing-xl) * -1));}
+.-translate-y-2xl { transform: translateY(calc(var(--pg-spacing-2xl) * -1));}
+.-translate-y-3xl { transform: translateY(calc(var(--pg-spacing-3xl) * -1));}
+
+/* skew */
+.skew-x-0 { transform: skewX(0deg);}
+.skew-x-1 { transform: skewX(1deg);}
+.skew-x-2 { transform: skewX(2deg);}
+.skew-x-3 { transform: skewX(3deg);}
+.skew-x-6 { transform: skewX(6deg);}
+.skew-x-12 { transform: skewX(12deg);}
+
+.-skew-x-1 { transform: skewX(-1deg);}
+.-skew-x-2 { transform: skewX(-2deg);}
+.-skew-x-3 { transform: skewX(-3deg);}
+.-skew-x-6 { transform: skewX(-6deg);}
+.-skew-x-12 { transform: skewX(-12deg);}
+
+.skew-y-0 { transform: skewY(0deg);}
+.skew-y-1 { transform: skewY(1deg);}
+.skew-y-2 { transform: skewY(2deg);}
+.skew-y-3 { transform: skewY(3deg);}
+.skew-y-6 { transform: skewY(6deg);}
+.skew-y-12 { transform: skewY(12deg);}
+
+.-skew-y-1 { transform: skewY(-1deg);}
+.-skew-y-2 { transform: skewY(-2deg);}
+.-skew-y-3 { transform: skewY(-3deg);}
+.-skew-y-6 { transform: skewY(-6deg);}
+.-skew-y-12 { transform: skewY(-12deg);}
+
+/* transform origin */
+.origin-center { transform-origin: center;}
+.origin-top { transform-origin: top;}
+.origin-top-right { transform-origin: top right;}
+.origin-right { transform-origin: right;}
+.origin-bottom-right { transform-origin: bottom right;}
+.origin-bottom { transform-origin: bottom;}
+.origin-bottom-left { transform-origin: bottom left;}
+.origin-left { transform-origin: left;}
+.origin-top-left { transform-origin: top left;}
+
+/* perspective */
+.perspective-none { perspective: none;}
+.perspective-500 { perspective: 500px;}
+.perspective-750 { perspective: 750px;}
+.perspective-1000 { perspective: 1000px;}
+.perspective-1500 { perspective: 1500px;}
+.perspective-2000 { perspective: 2000px;}
+
+.perspective-origin-center { perspective-origin: center;}
+.perspective-origin-top { perspective-origin: top;}
+.perspective-origin-bottom { perspective-origin: bottom;}
+.perspective-origin-left { perspective-origin: left;}
+.perspective-origin-right { perspective-origin: right;}
+
+/* 3d transforms */
+.rotate-x-0 { transform: rotateX(0deg);}
+.rotate-x-90 { transform: rotateX(90deg);}
+.rotate-x-180 { transform: rotateX(180deg);}
+.-rotate-x-90 { transform: rotateX(-90deg);}
+.-rotate-x-180 { transform: rotateX(-180deg);}
+
+.rotate-y-0 { transform: rotateY(0deg);}
+.rotate-y-90 { transform: rotateY(90deg);}
+.rotate-y-180 { transform: rotateY(180deg);}
+.-rotate-y-90 { transform: rotateY(-90deg);}
+.-rotate-y-180 { transform: rotateY(-180deg);}
+
+.rotate-z-0 { transform: rotateZ(0deg);}
+.rotate-z-90 { transform: rotateZ(90deg);}
+.rotate-z-180 { transform: rotateZ(180deg);}
+.-rotate-z-90 { transform: rotateZ(-90deg);}
+.-rotate-z-180 { transform: rotateZ(-180deg);}
+
+
+/* backface visibility */
+.backface-visible { backface-visibility: visible;}
+.backface-hidden { backface-visibility: hidden;}

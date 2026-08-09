@@ -1,0 +1,67 @@
+/* keyframes */
+@keyframes fade-in { from { opacity: 0;} to { opacity: 1;} }
+@keyframes fade-out { from { opacity: 1;} to { opacity: 0;} }
+
+@keyframes slide-up { from { transform: translateY(1rem); opacity: 0;} to { transform: translateY(0); opacity: 1;} }
+@keyframes slide-down { from { transform: translateY(-1rem); opacity: 0;} to { transform: translateY(0); opacity: 1;} }
+@keyframes slide-left { from { transform: translateX(1rem); opacity: 0;} to { transform: translateX(0); opacity: 1;} }
+@keyframes slide-right { from { transform: translateX(-1rem); opacity: 0;} to { transform: translateX(0); opacity: 1;} }
+
+@keyframes scale-in { from { transform: scale(0.95); opacity: 0;} to { transform: scale(1); opacity: 1;} }
+@keyframes scale-out { from { transform: scale(1); opacity: 1;} to { transform: scale(0.95); opacity: 0;} }
+
+@keyframes bounce { 0%, 100% { transform: translateY(0);} 50% { transform: translateY(-0.5rem);} }
+
+@keyframes pulse { 0%, 100% { opacity: 1;} 50% { opacity: 0.5;} }
+
+@keyframes spin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
+@keyframes spin-reverse { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
+
+@keyframes shake { 0%, 100% { transform: translateX(0);} 25% { transform: translateX(-0.25rem);} 75% { transform: translateX(0.25rem);} }
+@keyframes wiggle { 0%, 100% { transform: rotate(0deg);} 25% { transform: rotate(-1deg);} 75% { transform: rotate(1deg);} }
+
+@keyframes flip-x { from { transform: rotateX(0deg);} to { transform: rotateX(360deg);} }
+@keyframes flip-y { from { transform: rotateY(0deg);} to { transform: rotateY(360deg);} }
+
+@keyframes ping { 75%, 100% { transform: scale(2); opacity: 0;} }
+
+@keyframes bloom { 0% { transform: scale(0.5); opacity: 0;} 50% { transform: scale(1.1);} 100% { transform: scale(1); opacity: 1;} }
+@keyframes glow { 0%, 100% { opacity: 0.5;} 50% { opacity: 1;} }
+
+
+/* animation classes */
+.animate-fade-in { animation: fade-in var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-fade-in-fast { animation: fade-in var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-fade-in-slow { animation: fade-in var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+.animate-fade-out { animation: fade-out var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-fade-out-fast { animation: fade-out var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-fade-out-slow { animation: fade-out var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+
+.animate-slide-up { animation: slide-up var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-slide-up-fast { animation: slide-up var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-slide-up-slow { animation: slide-up var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+.animate-slide-down { animation: slide-down var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-slide-down-fast { animation: slide-down var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-slide-down-slow { animation: slide-down var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+.animate-slide-left { animation: slide-left var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-slide-left-fast { animation: slide-left var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-slide-left-slow { animation: slide-left var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+.animate-slide-right { animation: slide-right var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-slide-right-fast { animation: slide-right var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-slide-right-slow { animation: slide-right var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+
+.animate-scale-in { animation: scale-in var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-scale-in-fast { animation: scale-in var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-scale-in-slow { animation: scale-in var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+.animate-scale-out { animation: scale-out var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-scale-out-fast { animation: scale-out var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-scale-out-slow { animation: scale-out var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+
+.animate-bounce { animation: bounce var(--pg-duration-medium) var(--pg-ease-in-out) infinite;} .animate-bounce-fast { animation: bounce var(--pg-duration-fast) var(--pg-ease-in-out) infinite;} .animate-bounce-slow { animation: bounce var(--pg-duration-slow) var(--pg-ease-in-out) infinite;}
+
+.animate-pulse { animation: pulse var(--pg-duration-medium) var(--pg-ease-in-out) infinite;} .animate-pulse-fast { animation: pulse var(--pg-duration-fast) var(--pg-ease-in-out) infinite;} .animate-pulse-slow { animation: pulse var(--pg-duration-slow) var(--pg-ease-in-out) infinite;}
+
+.animate-spin { animation: spin var(--pg-duration-slow) linear infinite;} .animate-spin-fast { animation: spin var(--pg-duration-medium) linear infinite;} .animate-spin-slow { animation: spin var(--pg-duration-very-slow) linear infinite;}
+.animate-spin-reverse { animation: spin-reverse var(--pg-duration-slow) linear infinite;} .animate-spin-reverse-fast { animation: spin-reverse var(--pg-duration-medium) linear infinite;} .animate-spin-reverse-slow { animation: spin-reverse var(--pg-duration-very-slow) linear infinite;}
+
+.animate-shake { animation: shake var(--pg-duration-medium) var(--pg-ease-in-out) infinite;} .animate-shake-fast { animation: shake var(--pg-duration-fast) var(--pg-ease-in-out) infinite;} .animate-shake-slow { animation: shake var(--pg-duration-slow) var(--pg-ease-in-out) infinite;}
+
+.animate-wiggle { animation: wiggle var(--pg-duration-medium) var(--pg-ease-in-out) infinite;} .animate-wiggle-fast { animation: wiggle var(--pg-duration-fast) var(--pg-ease-in-out) infinite;} .animate-wiggle-slow { animation: wiggle var(--pg-duration-slow) var(--pg-ease-in-out) infinite;}
+
+.animate-flip-x { animation: flip-x var(--pg-duration-slow) linear infinite;} .animate-flip-x-fast { animation: flip-x var(--pg-duration-medium) linear infinite;} .animate-flip-x-slow { animation: flip-x var(--pg-duration-very-slow) linear infinite;}
+.animate-flip-y { animation: flip-y var(--pg-duration-slow) linear infinite;} .animate-flip-y-fast { animation: flip-y var(--pg-duration-medium) linear infinite;} .animate-flip-y-slow { animation: flip-y var(--pg-duration-very-slow) linear infinite;}
+
+.animate-ping { animation: ping var(--pg-duration-medium) var(--pg-ease-custom) infinite;} .animate-ping-fast { animation: ping var(--pg-duration-fast) var(--pg-ease-custom) infinite;} .animate-ping-slow { animation: ping var(--pg-duration-slow) var(--pg-ease-custom) infinite;}
+
+.animate-bloom { animation: bloom var(--pg-duration-medium) var(--pg-ease-custom) forwards;} .animate-bloom-fast { animation: bloom var(--pg-duration-fast) var(--pg-ease-custom) forwards;} .animate-bloom-slow { animation: bloom var(--pg-duration-slow) var(--pg-ease-custom) forwards;}
+.animate-glow { animation: glow var(--pg-duration-medium) var(--pg-ease-in-out) infinite;} .animate-glow-fast { animation: glow var(--pg-duration-fast) var(--pg-ease-in-out) infinite;} .animate-glow-slow { animation: glow var(--pg-duration-slow) var(--pg-ease-in-out) infinite;}
+
+
+.animate-none { animation: var(--pg-animation-none);} .animation-paused { animation-play-state: paused;} .animation-running { animation-play-state: running;}
+
+.animate-delay-very-fast { animation-delay: var(--pg-duration-very-fast);} .animate-delay-fast { animation-delay: var(--pg-duration-fast);} .animate-delay-medium { animation-delay: var(--pg-duration-medium);} .animate-delay-slow { animation-delay: var(--pg-duration-slow);} .animate-delay-very-slow { animation-delay: var(--pg-duration-very-slow);}
+.animate-delay-100 { animation-delay: 100ms;} .animate-delay-200 { animation-delay: 200ms;} .animate-delay-300 { animation-delay: 300ms;} .animate-delay-500 { animation-delay: 500ms;}

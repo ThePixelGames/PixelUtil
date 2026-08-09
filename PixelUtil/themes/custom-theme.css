@@ -1,7 +1,7 @@
 :root {
     /* colors */
     /* brand */
-    --clr-primary: var();
+    --clr-primary: var(--pg-clr-purple-400);
     --clr-secondary: var();
     --clr-tertiary: var();
     --clr-accent: var();
@@ -13,9 +13,9 @@
     --clr-info: var();
 
     /* backgrounds */
-    --clr-bg: var();
+    --clr-bg: var(--pg-clr-blue-300);
     --clr-surface: var();
-    -clr-surface-hover: var();
+    --clr-surface-hover: var();
     --clr-overlay: var();
 
     /* content */

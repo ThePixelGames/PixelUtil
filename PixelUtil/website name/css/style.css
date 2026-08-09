@@ -1,0 +1,148 @@
+/* fonts */
+@font-face {
+    font-family: 'PixelGamesSimplicity';
+    src: url(../assets/fonts/PixelGamesSimplicity-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'example';
+    src: url(path);
+}
+
+
+/* elements */
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+}
+
+a {
+}
+
+strong {
+}
+
+em {
+}
+
+small {
+}
+
+
+/* lists */
+ul {
+}
+
+ol {
+}
+
+li {
+}
+
+
+/* forms */
+button {
+}
+
+input {
+}
+
+textarea {
+}
+
+select {
+}
+
+option {
+}
+
+label {
+}
+
+
+/* media */
+img {
+}
+
+figure {
+}
+
+figcaption {
+}
+
+video {
+}
+
+audio {
+}
+
+track {
+}
+
+canvas {
+}
+
+svg {
+}
+
+iframe {
+}
+
+/* tables */
+table {
+}
+
+thead {
+}
+
+tbody {
+}
+
+tr {
+}
+
+th {
+}
+
+td {
+}
+
+
+/* quotes */
+blockquote {
+}
+
+
+/* code */
+code {
+}
+
+pre {
+}
+
+
+/* other */
+hr {
+}
+
+mark {
+}
+
+abbr {
+}

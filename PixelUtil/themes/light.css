@@ -15,7 +15,7 @@
     /* backgrounds */
     --clr-bg: var();
     --clr-surface: var();
-    -clr-surface-hover: var();
+    --clr-surface-hover: var();
     --clr-overlay: var();
 
     /* content */
