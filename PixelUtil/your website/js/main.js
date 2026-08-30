@@ -1,3 +1,4 @@
 /* Update if needed */
 import './events/events'
-import './utils/utils'
+import * as JSutils from './utils/utils'
+import * as JScomponents from './components/components'
