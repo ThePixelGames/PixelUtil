@@ -1,0 +1,91 @@
+/* basic reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*
+Complex reset
+
+Andy Bell's Css Reset Reference
+
+*, *::after, *::before { box-sizing: border-box; }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+image,
+picture,
+video,
+canvas,
+svg {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+body {
+    line-height: 1.5;
+
+    min-block-size: 100svh;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: breakword;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+*/

@@ -1,3 +1,48 @@
 {
-    "name":"PixelUtil"
+  "name": "pixelutil",
+  "version": "0.1.0-alpha",
+  "description": "A modular utility-first CSS framework with a variable-based architecture.",
+  "main": "dist/pixelutil-core.min.css",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "css",
+    "utility-first",
+    "framework",
+    "design-tokens",
+    "css-variables",
+    "css-components",
+    "atomic-css",
+    "css-framework",
+    "utility-classes",
+    "theming",
+    "dark-mode",
+    "light-mode",
+    "responsive",
+    "css-reset",
+    "design-system",
+    "component-library",
+    "no-dependencies",
+    "lightweight",
+    "modular-css",
+    "custom-properties"
+  ],
+  "author": "Pixel Games",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThePixelGames/PixelUtil"
+  },
+  "homepage": "https://github.com/ThePixelGames/pixelutil#readme",
+  "bugs": {
+    "url": "https://github.com/ThePixelGames/pixelutil/issues"
+  },
+  "scripts": {
+    "build": "lightningcss --bundle --minify src/core/index.css -o dist/pixelutil-core.min.css",
+    "build:themes": "lightningcss --minify src/themes/theme-light.css -o dist/themes/theme-light.min.css && lightningcss --minify src/themes/theme-dark.css -o dist/themes/theme-dark.min.css"
+  },
+  "devDependencies": {
+    "lightningcss-cli": "^1.33.0"
+  }
 }

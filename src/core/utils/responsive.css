@@ -1,0 +1,5 @@
+@media (min-width: 480px) { .xs\:grid { display: grid; } }
+@media (min-width: 640px) { .sm\:grid { display: grid; } }
+@media (min-width: 768px) { .md\:grid { display: grid; } }
+@media (min-width: 1024px) { .lg\:grid { display: grid; } }
+@media (min-width: 1280px) { .xl\:grid { display: grid; } }
