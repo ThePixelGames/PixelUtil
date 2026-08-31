@@ -65,7 +65,7 @@ grid-cols-        grid columns
 
 Sizing stays consistant throughout the css util class selectors: 
 
-<h6>xs</h6> <h5>sm</h5> <h4>md</h4> <h3>lg</h3> <h2>xl</h2> <h1>2xl</h1>
+<h6>xs</h6> <h5>sm</h5> <h4>md</h4> <h3>lg</h3> <h3>xl</h3> <h2>2xl</h2>
 
 ```html
 <div class="flex items-center justify-between gap-md p-lg bg-clr-surface border-radius-md">
@@ -78,7 +78,7 @@ Sizing stays consistant throughout the css util class selectors:
 
 ## Documentation
 
-Full documentation including the complete spacing scale, color scale, typography variables, utility class reference, component examples, and available looks is available at [./docs/index.html].
+Full documentation including the complete spacing scale, color scale, typography variables, utility class reference, component examples, and available looks is available at [!HTML](./docs).
 
 ---
 
