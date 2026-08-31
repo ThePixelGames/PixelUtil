@@ -6,7 +6,8 @@
 [![HTML](https://img.shields.io/badge/HTML-1.4%25-E34F26)](./src)
 [![License](https://img.shields.io/badge/License-view-blue)](./LICENSE)
 <br>
- A BEM-oriented, utility-first CSS framework for building clean, consistent websites fast. From modern minimal looks to video game dev exclusive component preset lybrary.
+
+ ### A BEM-oriented, utility-first CSS framework for building clean, consistent websites fast. From modern minimal looks to video game dev exclusive component preset lybrary.
 
 </div>
 
@@ -31,7 +32,7 @@ PixelUtil gives you a consistent set of design variables (colors, spacing, typog
 ---
 
 ## Installation
-Download the latest build from [!dist](./dist) and link it in your HTML:
+Download the latest build from [distribution](./dist) and link it in your HTML:
 
 ```html
 <link rel="stylesheet" href="pixelutil-core.min.css">
