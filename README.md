@@ -8,8 +8,8 @@
 [![License](https://img.shields.io/badge/License-view-blue)](./LICENSE)
 
 <br>
-
-A BEM-oriented, utility-first CSS framework for building clean, consistent websites fast. From modern minimal looks to video game dev exclusive component preset lybrary.
+> [!NOTE]
+> A BEM-oriented, utility-first CSS framework for building clean, consistent websites fast. From modern minimal looks to video game dev exclusive component preset lybrary.
 
 </div>
 
@@ -28,12 +28,13 @@ PixelUtil gives you a consistent set of design variables (colors, spacing, typog
 ---
 
 ## Philosophy
+> [CAUTION]
 > Good design tends to follow proportions found in nature. PixelUtil's spacing and sizing scales are built around those same relationships. Ratios like the golden ratio (1.618).
 
 ---
 
 ## Installation
-Download the latest build from [!dist][./dist] and link it in your HTML:
+Download the latest build from [!dist](./dist) and link it in your HTML:
 
 ```html
 <link rel="stylesheet" href="pixelutil-core.min.css">
@@ -78,7 +79,7 @@ Sizing stays consistant throughout the css util class selectors:
 
 ## Documentation
 
-Full documentation including the complete spacing scale, color scale, typography variables, utility class reference, component examples, and available looks is available at [!HTML](./docs).
+Full documentation including the complete spacing scale, color scale, typography variables, utility class reference, component examples, and available looks is available at [documentation](./docs).
 
 ---
 
