@@ -1,15 +1,12 @@
 <div align="center">
 
 # PixelUtil
-
 [![CSS](https://img.shields.io/badge/CSS-88.7%25-663399)](./src)
 [![JavaScript](https://img.shields.io/badge/JavaScript-9.9%25-F0DB4F)](./src)
 [![HTML](https://img.shields.io/badge/HTML-1.4%25-E34F26)](./src)
 [![License](https://img.shields.io/badge/License-view-blue)](./LICENSE)
 <br>
-
-> [!NOTE]
-> A BEM-oriented, utility-first CSS framework for building clean, consistent websites fast. From modern minimal looks to video game dev exclusive component preset lybrary.
+ A BEM-oriented, utility-first CSS framework for building clean, consistent websites fast. From modern minimal looks to video game dev exclusive component preset lybrary.
 
 </div>
 
@@ -28,7 +25,7 @@ PixelUtil gives you a consistent set of design variables (colors, spacing, typog
 ---
 
 ## Philosophy
-> [!CAUTION]
+> [!NOTE]
 > Good design tends to follow proportions found in nature. PixelUtil's spacing and sizing scales are built around those same relationships. Ratios like the golden ratio (1.618).
 
 ---
