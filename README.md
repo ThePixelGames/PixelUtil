@@ -5,7 +5,7 @@
 [![CSS](https://img.shields.io/badge/CSS-88.7%25-663399)](./src)
 [![JavaScript](https://img.shields.io/badge/JavaScript-9.9%25-F0DB4F)](./src)
 [![HTML](https://img.shields.io/badge/HTML-1.4%25-E34F26)](./src)
-[![License](https://img.shields.io/badge/License-view-blue)](./license.md)
+[![License](https://img.shields.io/badge/License-view-blue)](./LICENSE)
 
 <br>
 
@@ -65,12 +65,7 @@ grid-cols-        grid columns
 
 Sizing stays consistant throughout the css util class selectors: 
 
-<h6>xs</h6>,
-<h5>sm</h5>,
-<h4>md</h4>,
-<h3>lg</h3>,
-<h2>xl</h2>,
-<h1>2xl</h1>
+<h6>xs</h6> <h5>sm</h5> <h4>md</h4> <h3>lg</h3> <h2>xl</h2> <h1>2xl</h1>
 
 ```html
 <div class="flex items-center justify-between gap-md p-lg bg-clr-surface border-radius-md">
