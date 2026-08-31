@@ -3,6 +3,11 @@
 # PixelUtil
 A BEM-oriented, utility-first CSS framework for building clean, consistent websites fast. From modern minimal looks to video game dev exclusive component preset lybrary.
 
+[![CSS](https://img.shields.io/badge/CSS-88.7%25-663399)](./src)
+[![JavaScript](https://img.shields.io/badge/JavaScript-9.9%25-F0DB4F)](./src)
+[![HTML](https://img.shields.io/badge/HTML-1.4%25-E34F26)](./src)
+[![License](https://img.shields.io/badge/License-view-blue)](./license.md)
+
 </div>
 
 PixelUtil gives you a consistent set of design variables (colors, spacing, typography, shadows, and more), a full set of utility classes, and optional prebuilt components in the presets folder.
@@ -57,12 +62,12 @@ grid-cols-        grid columns
 
 Sizing stays consistant throughout the css util class selectors: 
 
-<code style="font-size:11px">xs</code>, 
-<code style="font-size:13px">sm</code>,
-<code style="font-size:16px">md</code>, 
-<code style="font-size:20px">lg</code>,
-<code style="font-size:25px">xl</code>, 
-<code style="font-size:31px">2xl</code>
+<p style="font-size:11px">xs</p>,
+<p style="font-size:13px">sm</p>,
+<p style="font-size:16px">md</p>, 
+<p style="font-size:20px">lg</p>,
+<p style="font-size:25px">xl</p>, 
+<p style="font-size:31px">2xl</p>
 
 ```html
 <div class="flex items-center justify-between gap-md p-lg bg-clr-surface border-radius-md">
