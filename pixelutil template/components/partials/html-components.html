@@ -1,0 +1,110 @@
+<!-- Example for nav bar -->
+
+<!-- Some example of a fixed navigation bar both with project css and pixel util -->
+
+<!-- -- Navbar -- -->
+<div class="navbar position-fixed w-full flex items-center justify-between px-lg py-sm bg-clr-surface">
+    <div class="navbar__brand fs-lg fw-700">
+        <img src="./assets/icons/programming_icon.png" alt="">
+    </div>
+    <div class="navbar__links">
+        <ul class="navbar__list flex gap-md">
+            <li><a class="navbar__link" href="#">About</a></li>
+            <li><a class="navbar__link" href="#">Product</a></li>
+            <li><a class="navbar__link" href="#">Other</a></li>
+        </ul>
+    </div>
+    <div class="navbar__actions flex gap-sm">
+        <button class="button button--primary px-md py-xs border-radius-sm">Sign in</button>
+    </div>
+</div>
+
+
+<!-- -- Card -- -->
+<div class="card bg-clr-surface border-radius-md p-lg box-shadow-sm">
+    <div class="card__content">
+        <h3 class="card__title fs-lg fw-600">Card Title</h3>
+        <p class="card__description text-clr-description">Supporting text goes here.</p>
+    </div>
+    <div class="card__actions flex gap-sm">
+        <button class="button button--primary">Learn more</button>
+    </div>
+</div>
+
+
+<!-- -- Button group -- -->
+<div class="button-group flex gap-sm">
+    <button class="button button--primary px-lg py-sm border-radius-sm">Save</button>
+    <button class="button button--secondary px-lg py-sm border-radius-sm">Cancel</button>
+</div>
+
+
+<!-- -- Alert -- -->
+<div class="alert alert--warning bg-clr-warning border-radius-sm p-md flex items-center justify-between">
+    <div class="alert__content">Your session is about to expire.</div>
+    <button class="alert__close">&times;</button>
+</div>
+
+
+<!-- -- Form group -- -->
+<div class="form__group mb-md">
+    <label class="form__label fs-sm fw-500" for="email">Email</label>
+    <input class="form__input border-radius-sm p-sm" type="email" id="email">
+</div>
+
+
+<!-- -- Badge -- -->
+<span class="badge badge--primary bg-clr-primary text-clr-header px-sm py-xxs border-radius-full fs-xs">
+    New
+</span>
+
+
+<!-- -- Modal -- -->
+<div class="modal fixed inset-0 flex items-center justify-center">
+    <div class="modal__content bg-clr-surface border-radius-lg p-lg max-w-md">
+        <div class="modal__header flex justify-between items-center mb-md">
+            <h2 class="fs-xl fw-700">Modal Title</h2>
+            <button class="modal__close">&times;</button>
+        </div>
+        <div class="modal__body">
+            Modal content goes here.
+        </div>
+        <div class="modal__footer flex justify-end gap-sm mt-lg">
+            <button class="button button--secondary">Close</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- -- Footer -- -->
+<footer class="footer bg-clr-surface p-xl">
+    <div class="footer__brand fs-lg fw-700">PixelUtil</div>
+    <ul class="footer__links flex gap-md">
+        <li><a class="footer__link" href="#">About</a></li>
+        <li><a class="footer__link" href="#">Docs</a></li>
+        <li><a class="footer__link" href="#">GitHub</a></li>
+    </ul>
+    <div class="footer__bottom text-clr-muted fs-sm mt-lg">© 2026 Pixel Games</div>
+</footer>
+
+
+<!-- -- Tabs (not yet stubbed in custom-components.css) -- -->
+<div class="tabs">
+    <ul class="tabs__list flex gap-sm border-b-thin border-clr-border">
+        <li><button class="tabs__tab px-md py-sm fw-500">Overview</button></li>
+        <li><button class="tabs__tab px-md py-sm fw-500">Details</button></li>
+        <li><button class="tabs__tab px-md py-sm fw-500">Reviews</button></li>
+    </ul>
+    <div class="tabs__panel p-md">
+        Panel content goes here.
+    </div>
+</div>
+
+
+<!-- -- Tooltip (not yet stubbed in custom-components.css) -- -->
+<span class="tooltip relative">
+    <button class="tooltip__trigger">Hover me</button>
+    <span class="tooltip__content absolute bg-clr-overlay text-clr-header p-xs border-radius-sm fs-xs">
+        Helpful hint text
+    </span>
+</span>

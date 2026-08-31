@@ -9,7 +9,6 @@
 - create a base.css or multiple for PG style.
 - change font size for body. and everything in theme should be referenced in the utils.
 -fix variable nameing for spacing in utils and varaibles
-- for git server, make a repo, run it, and make the files download in a specific location for transfer between computers.
 
 - Start on docs soon.
 
@@ -17,4 +16,4 @@
 all css varaiables that start with pg are global variables used in utils. in the tokens
 
 
-npm create pixelutil@latest
+npm create pixelutil@latest For future reference
