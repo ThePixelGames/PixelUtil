@@ -12,6 +12,8 @@
 
 - Start on docs soon.
 
+- JSON for variable config.
+
 # Standards
 all css varaiables that start with pg are global variables used in utils. in the tokens
 
